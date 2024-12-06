@@ -1,0 +1,49 @@
+
+
+.first{
+    background-image: 
+    url(https://z-p3-scontent.fadd1-1.fna.fbcdn.net/v/t39.30808-6/461421525_122102018588545049_5356640265550879726_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeELFpsPhyoDIZKP2VRqJB1E073R5ykyJNTTvdHnKTIk1Nng2K34WuTIsj0DHcS4N2ERtDTJ0VaxKXtaeEocllZH&_nc_ohc=d0NBRDfGVW0Q7kNvgEkxjcv&_nc_zt=23&_nc_ht=z-p3-scontent.fadd1-1.fna&_nc_gid=A__yI5GShgCvEBlW3qMgsSG&oh=00_AYAq6Ja6SyqDJUDM4etdf6I3gp4j5GdTi6xOs3vk2mnPNQ&oe=675913A7);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    color: #f8f9fb;
+    
+}
+.head_title{
+    margin-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgba(7, 4, 0, 0.261);
+    display: flex;
+}
+.menu{
+    margin-left: 50%;
+}
+.menu_list{
+    background-color: rgba(234, 177, 108, 0.4);
+    
+        position: fixed;
+        right: 15;
+        top: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 999;
+       
+       flex-direction: column;
+       backdrop-filter: blur(20px);
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 15px;
+        margin: 0px;
+        font-size: 25px;
+    }
+.menu_list li {
+    list-style: none;
+    padding: 10px;
+}
+.menu_list li:hover{
+    color: rgb(250, 226, 7);
+    cursor: pointer;
+}
