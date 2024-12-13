@@ -1,49 +1,64 @@
 
+*{
+    
+    
+}
 
-.first{
-    background-image: 
-    url(https://z-p3-scontent.fadd1-1.fna.fbcdn.net/v/t39.30808-6/461421525_122102018588545049_5356640265550879726_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeELFpsPhyoDIZKP2VRqJB1E073R5ykyJNTTvdHnKTIk1Nng2K34WuTIsj0DHcS4N2ERtDTJ0VaxKXtaeEocllZH&_nc_ohc=d0NBRDfGVW0Q7kNvgEkxjcv&_nc_zt=23&_nc_ht=z-p3-scontent.fadd1-1.fna&_nc_gid=A__yI5GShgCvEBlW3qMgsSG&oh=00_AYAq6Ja6SyqDJUDM4etdf6I3gp4j5GdTi6xOs3vk2mnPNQ&oe=675913A7);
-    background-size: cover;
+
+.header{
+    color: white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReP-nY96NMuUCtPfMM5F1yXlecJ5FaRVulJQ&s);
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    background-size: cover; /* This makes the background image cover the entire area */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
-    background-repeat: no-repeat;
-    color: #f8f9fb;
-    
 }
-.head_title{
-    margin-left: 40px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    background-color: rgba(7, 4, 0, 0.261);
+
+.head_top{
+    background-color: rgba(0, 0, 0, 0.437);
+}
+.head_top2{
+    color: white;
     display: flex;
+    font-size: 20px;
 }
-.menu{
-    margin-left: 50%;
+.head_top2 ul li{
+    justify-content: center;
+    text-align: center;
+ display: inline;
+  padding: 10px;
 }
-.menu_list{
-    background-color: rgba(234, 177, 108, 0.4);
+
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(30, 25, 25, 0.308); /* Semi-transparent red */
+    pointer-events: none; /* Allows clicks to pass through to the image */
+}
+
+.head_top, .head_top2 {
+    /* Position text above the image and overlay */
+    z-index: 1; /* Ensure text is above the overlay */
+    color: white; /* Text color for better visibility */
+    text-align: center; /* Center the text */
     
-        position: fixed;
-        right: 15;
-        top: 0;
-        height: 100vh;
-        width: 250px;
-        z-index: 999;
-       
-       flex-direction: column;
-       backdrop-filter: blur(20px);
-        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-        align-items: flex-start;
-        justify-content: flex-start;
-        padding: 15px;
-        margin: 0px;
-        font-size: 25px;
-    }
-.menu_list li {
-    list-style: none;
-    padding: 10px;
-}
-.menu_list li:hover{
-    color: rgb(250, 226, 7);
-    cursor: pointer;
 }
