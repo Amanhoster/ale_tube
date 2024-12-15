@@ -17,20 +17,39 @@
 }
 
 .head_top{
-    background-color: rgba(0, 0, 0, 0.437);
+    background-color: rgba(0, 0, 0, 0.524);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 8px;
 }
 .head_top2{
     color: white;
     display: flex;
     font-size: 20px;
-}
-.head_top2 ul li{
+    background-color: rgba(134, 137, 138, 0.758);
+    text-align: center;
     justify-content: center;
     text-align: center;
- display: inline;
-  padding: 10px;
+    padding: 5px;
 }
-
+.head_top2 ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+.head_top2 ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.head_top2 ul li:hover{
+    color: rgb(243, 160, 51);
+    transition: 0.5s;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.242);
+    border-radius: 20px;
+}
 
 .background-container {
     position: relative;
@@ -61,4 +80,52 @@
     color: white; /* Text color for better visibility */
     text-align: center; /* Center the text */
     
+}
+.social{
+    background-color: rgba(215, 76, 45, 0.496);
+    margin-left: 30px;
+    margin-right: 40px;
+    
+}
+
+.social1{
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.social .h1,.h2{
+    background-color: rgba(249, 237, 10, 0.514);
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.social2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.social2 .h1,.h2{
+    background-color: rgba(249, 237, 10, 0.514);
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+    
+.social .h1:hover,.h2:hover{
+    transform: translate(0,7%);
+    box-shadow:0 100px 30px #372222d0 ;
 }
