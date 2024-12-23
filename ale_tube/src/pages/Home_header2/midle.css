@@ -5,3 +5,34 @@
     
 }
 
+.M_all{
+    margin-top: 40px;
+    background-color: rgba(9, 8, 8, 0.818);
+    color: white;
+}
+.M_head_text{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fun1{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.Mvpn{
+    padding-top: 60px;
+    
+}
+
+.Mvpn img{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.youtube_video iframe{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
